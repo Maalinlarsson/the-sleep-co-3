@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*----------------------------------- Temporarely styles -----------------------------------*/
+* {
+    padding:0.5rem;
+    border: 2px solid aliceblue;
+}
+
+
+/*----------------------------------- BLABLABLA -----------------------------------*/
+body {
+    border: none;
+}
+
+html {
+    border: none;
+}
+
+/*----------------------------------- Image styles -----------------------------------*/
+.bg-image {
+    background-image: url('/images/sleep-co-1.jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
