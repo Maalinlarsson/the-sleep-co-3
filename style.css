@@ -15,6 +15,8 @@
 /*----------------------------------- BLABLABLA -----------------------------------*/
 body {
     border: none;
+    font-family: 'Catamaran', sans-serif;
+    color: #192B37;
 }
 
 html {
@@ -26,4 +28,17 @@ html {
     background-image: url('/images/sleep-co-1.jpg');
     background-size: cover;
     min-height: 10rem;
+}
+
+/*----------------------------------- Universal styles and utility classes -----------------------------------*/
+.padded-sm { padding: 2.5%;    }
+.padded-md { padding: 5%;      }
+.padded-lg { padding: 10%;     }
+.padded-05 { padding: 0.5rem;  }
+.padded-1  { padding: 1rem;    }
+.padded-2  { padding: 2rem;    }
+
+.bg-dark { 
+    background-color: #192B37;
+    color: white;
 }
