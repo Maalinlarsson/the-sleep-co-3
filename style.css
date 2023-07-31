@@ -43,20 +43,43 @@ a:hover {
 }
 
 /*----------------------------------- Utility classes -----------------------------------*/
-.padded-sm              { padding: 2.5%;       }
-.padded-md              { padding: 5%;         }
-.padded-lg              { padding: 10%;        }
-.padded-05              { padding: 0.5rem;     }
-.padded-1               { padding: 1rem;       }
-.padded-2               { padding: 2rem;       }
+.padded-sm              { padding: 2.5%;                     }
+.padded-md              { padding: 5%;                       }
+.padded-lg              { padding: 10%;                      }
+.padded-05              { padding: 0.5rem;                   }
+.padded-1               { padding: 1rem;                     }
+.padded-2               { padding: 2rem;                     }
 
-.tall-40                { min-height: 40vh;    }
-.tall-50                { min-height: 50vh;    }
-.tall-60                { min-height: 60vh;    }
-.tall-70                { min-height: 70vh;    }
-.tall-80                { min-height: 80vh;    }
-.tall-90                { min-height: 90vh;    }
-.tall-100               { min-height: 100vh;   }
+.margin-t               { margin-top: 5%;                    }
+.margin-b               { margin-bottom: 5%;                 }
+.margin-l               { margin-left: 5%;                   }
+.margin-r               { margin-right: 5%;                  }
+
+.margin-t-1             { margin-top: 1rem;                  }
+.margin-b-1             { margin-bottom: 1rem;               }
+.margin-l-1             { margin-left: 1rem;                 }
+.margin-r-1             { margin-right: 1rem;                }
+
+.margin-t-2             { margin-top: 2rem;                  }
+.margin-b-2             { margin-bottom: 2rem;               }
+.margin-l-2             { margin-left: 2rem;                 }
+.margin-r-2             { margin-right: 2rem;                }
+
+.margin-t-0             { margin-top: 0;                     }
+.margin-b-0             { margin-bottom: 0;                  }
+.margin-l-0             { margin-left: 0;                    }
+.margin-r-0             { margin-right: 0;                   }
+
+.margin-tb              { margin-top: 5%; margin-bottom: 5%; }
+.margin-lr              { margin-left: 5%; margin-right: 5%; }
+
+.tall-40                { min-height: 40vh;                  }
+.tall-50                { min-height: 50vh;                  }
+.tall-60                { min-height: 60vh;                  }
+.tall-70                { min-height: 70vh;                  }
+.tall-80                { min-height: 80vh;                  }
+.tall-90                { min-height: 90vh;                  }
+.tall-100               { min-height: 100vh;                 }
 
 .bg-dark { 
     background-color: #192B37;
@@ -76,6 +99,10 @@ p {
  font-weight: 200;
  line-height: 1.5;
  margin-bottom: 1rem;
+}
+
+a {
+    border: none;
 }
 
 p:last-child {
@@ -114,15 +141,19 @@ p:last-child {
 }
 
 /*----------------------------------- Header and footer styles -----------------------------------*/
-header {
+.header-banner {
     background-image: url('/images/sleep-co-1.jpg');
     background-size: cover;
     background-position: center;
 }
 
-header h3 {
+.header-banner h3 {
     font-size: 5.5rem;
     line-height: 1;
+}
+
+header a:hover {
+    color: black;
 }
 
 footer a {

@@ -4,6 +4,9 @@
 <!---------------- This is the head of our html where we add all the external resources and metadata ---------------->
 <head>
 
+    <!---------------- The title of the page ---------------->
+    <title> Sleep like a baby </title>
+
     <!---------------- This is our font awesomes icons ---------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -23,13 +26,27 @@
 <body>
     
     <!---------------- Header banner ---------------->
-    <header class="padded-md grid text-center tall-100">
+    <header class="grid-middle margin-t-1">
+        <div class="col-3">
+          <a href="" class="logo">
+            <h2 class="padded-sm"> The Sleep Co </h2>
+          </a>
+        </div>
+        <nav class="col-9 featured-text text-right">
+          <a href="/index.html" class="margin-l-1"> Home </a>
+          <a href="/about.html" class="margin-l-1"> About </a>
+          <a href="/contact.html" class="margin-l-1 margin-r-1"> Contact </a>
+        </nav>
+    </header>
+
+    <!---------------- Header image banner ---------------->
+    <section class="header-banner padded-md grid text-center tall-100">
         <div class="col-12-middle">
             <h3 class="font-weight-extra-bold editable"> <span class="featured-text"> sleep </span> like a baby 
             </h3>
             <h1 class="font-weight-normal editable"> the ultimate mattress solution </h1>
         </div> 
-    </header>
+    </section>
 
     <!---------------- Gallery section ---------------->
     <section class="grid">
